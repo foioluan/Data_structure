@@ -139,7 +139,7 @@ export default class List {
 
         while(nodeAux != null){
             if(nodeAux.data == element){
-                return true;
+                return nodeAux.data;
             }
             nodeAux = nodeAux.next;
         }
